@@ -1,0 +1,25 @@
+
+
+
+<div id="homepage">
+    <div style="position: absolute; top: 30%; left: 40%;">
+        <h3 style="color: white; position: absolute; top: 4%; left: 30%;">OTP Verification</h3>
+        <form method="post" action="/api/verify" style="background-color: grey; height: 50vh; width: 30vw;">
+            
+            <div class="mb-3" style="padding-top: 15%; padding-left: 5%; width: 70%;">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" name="email" id="exampleInputEmail1"  value="<%= useremail %>" readonly aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3" style="padding-top: 10%; padding-left: 5%; width: 50%;">
+            <input type="text" class="form-control" name="otp" placeholder="OTP" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <button style="margin-left: 5%;">Submit OTP</button>
+        </form>
+    </div>
+    
+    <% if(status){%>
+        <script>
+            alert('OTP or Email address is wrong!')
+        </script>
+   <% } %>
+</div>

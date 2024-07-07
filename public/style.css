@@ -1,0 +1,25 @@
+#homepage,.signinforms{
+    height: 91vh;
+    width: 100vw;
+    background-image: url('login_page_background.jpg');
+    background-color: blue;
+    color: white;
+}
+
+#login-form{
+    position: absolute;
+    margin-left: 40%;
+    top: 35%;
+    height: 40%;
+    width: 30%;
+    border-width: 30px;
+    border-color: red;
+}
+
+#login-alert{
+    position: absolute;
+    
+    width: 30%;
+    left: 40%;
+    top: 20%;
+}

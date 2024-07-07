@@ -1,0 +1,35 @@
+
+
+<% if(error) {%>
+    <script>
+        alert('Something went wrong please try again later')
+    </script>
+<% } %>
+
+
+<div id="homepage">
+    <div style="position: absolute; top: 30%; left: 40%;">
+
+    
+    <form action="/api/update-pass" method="post" style="background-color: grey; height: 50vh; width: 30vw;">
+        <h4 style="margin-left: 3%;">Reset a New Password</h4>
+        <div class="mb-3" style="padding-top: 6%; padding-left: 5%; width: 70%;">
+          
+          <input type="email" class="form-control" name="email" value="<%=useremail %>" required id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+        </div>
+        
+        <div class="mb-3" style="padding-top: 5%; padding-left: 5%; width: 70%;">
+          
+          <input type="password" name="NewPassword" required placeholder="New Password" class="form-control" id="exampleInputPassword2">
+        </div>
+
+        <div class="mb-3" style="padding-top: 5%; padding-left: 5%; width: 70%;">
+          
+          <input type="password" name="NewPasswordRepeat" required  placeholder="Re-Enter new password" class="form-control" id="exampleInputPassword3">
+        </div>
+        
+        <button type="submit" id="passresetbtn" class="btn btn-primary" style="margin-left: 5%;">Submit</button> <span id="passMatchText"></span>
+      </form>
+    </div>
+</div>

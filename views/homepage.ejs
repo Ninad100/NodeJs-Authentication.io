@@ -1,0 +1,30 @@
+
+<% if(logErr){ %>
+  <div class="alert alert-danger" role="alert" id="login-alert">
+    Wrong Credentials! Please try again
+  </div>
+<% } %>
+
+
+<div id="homepage">
+    <div id="login-form">
+      <h2 style="color: black;">Sign In</h2>
+    <form action="/api/login" method="post">
+        <div class="mb-3">
+          
+          <input type="email" class="form-control" name="email" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+          
+        </div>
+        <div class="mb-3">
+          
+          <input type="password" name="password" required class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        
+        <button type="submit" class="btn btn-dark">Sign In</button>
+        <a href="/signup-form"><button type="button" class="btn btn-dark">Sign Up</button></a>
+      </form>
+      <br>
+      <a href="/forgot-password" style="color: black; text-decoration: underline;">Forgot Password??</a>
+    </div>
+    
+</div>
