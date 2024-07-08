@@ -152,7 +152,7 @@ function generatefourDigitOTP(){
         service: 'gmail',
         auth: {
             user: 'ninad.awalgaonkar96@gmail.com',
-            pass: 'znxt ldjz'
+            pass: process.env.MAIL_PASS
         },
     });
 
