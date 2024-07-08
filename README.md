@@ -81,6 +81,26 @@ The Frontend code is implemented using HTML, EJS, CSS, Vanilla JavaScript, and B
 
 ## Google Authentication
 
+Click on Google to do Google Login:
+![image](https://github.com/Ninad100/NodeJs-Authentication/assets/63588506/6428e998-5ba5-4c7c-8816-eafba61000f5)
+
+![image](https://github.com/Ninad100/NodeJs-Authentication/assets/63588506/8586aa04-42ec-4f9f-842a-34a69a8197b1)
+
+![image](https://github.com/Ninad100/NodeJs-Authentication/assets/63588506/82c0fc2a-aad5-4e2f-9aff-c45ef7e28530)
+
+
+In this way google authentication successfully implemented.
+
+## Setup
+To run this project
+- Clone repository to your system
+- run **npm i** to install all dependencies
+- run **server.js** to run the application
+- Ensure to have your own DB URL and other secrets to use this properly.
+
+
+
+
 
 
 
