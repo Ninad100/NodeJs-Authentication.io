@@ -8,11 +8,12 @@ More details with screenshots is given in the following sections.
 
 ## AWS Hosted Link
 
-I have deployed this project in an AWS Linux machine. The hosted Link is given below. Kindly note: I will terminate this server after some time when I will start the new project.
+I have deployed this project in an AWS Linux machine. The hosted Link is given below. 
+
+**AWS Hosted Link:** [http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000/](http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3001/)
+
+Kindly note: If above link is not working then might be I terminate server due to AWS resource limit.
 The reason behind doing this is I am using the Free tier version of AWS hence, to stay within the limit I will remove the deployment of the previous project. But all the screenshots from the Deployment are added below.
-
-**AWS Hosted Link:** http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000/
-
 
 ## Technology Used:
 
